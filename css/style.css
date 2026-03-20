@@ -1,4 +1,29 @@
 body {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
+  /* background-color: bisque; */
+}
+
+header {
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 48px;
+}
+
+.nav-bar ul {
+  display: flex;
+  /* gap: 15px; */
+}
+
+.nav-bar li {
+  padding: 10px;
 }
